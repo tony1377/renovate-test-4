@@ -1,0 +1,13 @@
+{
+        "extends": [
+            "config:base",
+            ":enableVulnerabilityAlerts",
+            ":prConcurrentLimitNone",
+            ":prHourlyLimitNone",
+            ":rebaseStalePrs"
+        ],
+        "ignorePresets": [":prHourlyLimit2", ":autodetectPinVersions", ":prConcurrentLimit20", "group:monorepos", "group:recommended"],
+        "rangeStrategy": "bump",
+        "baseBranches": ["npm-updates"],
+        "lockFileMaintenance": {"enabled": false}
+}
