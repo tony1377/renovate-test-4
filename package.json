@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "globby": "^7.0.0",
-    "lodash": "^1.0.0"
+    "lodash": "^4.17.12"
   },
   "devDependencies": {},
   "scripts": {
